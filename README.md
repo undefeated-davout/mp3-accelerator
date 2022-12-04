@@ -18,9 +18,12 @@ docker exec -it mp3-converter.app bash
 ## 実行
 
 ```bash
-# 例：2.0倍速に変換するとき
+# 例: 2.0倍速に変換するとき
 python app/mp3-accelerator.py 2.0
 
-# 例：正規化するとき
+# 例: 正規化するとき
 python app/mp3-normalizer.py
+
+# 例: 音量を3.0デシベル上げる時
+python app/mp3-volume-changer.py 3.0
 ```
